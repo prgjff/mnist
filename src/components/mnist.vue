@@ -20,6 +20,8 @@ import Chart from 'chart.js';
 import * as tf from '@tensorflow/tfjs';
 import { constant } from '@tensorflow/tfjs-layers/dist/exports_initializers';
 
+import ChartLine from './stand-alone/chart-line/index.vue';
+
 @Component
 export default class Mnist extends Vue {
     protected mnistData = require('./data/data.js');
